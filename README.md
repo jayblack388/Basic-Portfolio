@@ -1,6 +1,8 @@
 # Basic-Portfolio
 A basic portfolio for early class work
 
+Just some changes to see if I can reproduce my questions
+
 Instructions from the repository
 
 
