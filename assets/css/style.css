@@ -43,8 +43,9 @@ footer {
 	font-weight: bold;
 	text-align:center;
 	margin:0px;
-	padding:30px;
+	padding:20px;
 	border-top:10px solid cadetblue;
+	font-size:12px;
 }
 a {
 	text-decoration:none;
@@ -120,4 +121,40 @@ li a:hover {
 }
 .links {
 	margin-left:20px
+}
+textarea {
+	width:100%;
+	height:300px;
+}
+input[type=text] {
+	width:100%;
+}
+.box-set {
+	background-color:white;
+}
+.box {
+	height:225px;
+	width:300px;
+	position:relative;
+}
+.box-1 {
+	right:30px;
+}
+.box-2 {
+	right:30px;
+}
+.box-3 {
+	right:30px;
+}
+.box-4 {
+	left:300px;
+	bottom:723px;
+}
+.box-5 {
+	left:300px;
+	bottom:723px;
+}
+.box-6 {
+	left:300px;
+	bottom:723px;
 }
