@@ -86,6 +86,7 @@ figcaption {
 	padding:0px;
 	color:white;
 	font-size:18px;
+	opacity: 0.8;
 }
 
 .bio_pic {
@@ -132,7 +133,8 @@ figcaption {
 	height:50px;
 }
 .links {
-	margin-left:20px
+	margin-left:20px;
+	padding-top:30px;
 }
 textarea {
 	width:100%;
