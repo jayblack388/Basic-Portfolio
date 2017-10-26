@@ -1,6 +1,4 @@
 body {
-	width:100%;
-	height:100%;
 	background-image: url("../images/concrete_texture.png");
 	margin:0;
 	padding:0;
@@ -90,6 +88,10 @@ figcaption {
 	opacity: 0.75;
 }
 
+#content {
+	width:960px;
+}
+
 .bio_pic {
 		image-orientation:270deg;
 		width:200px;
@@ -117,13 +119,14 @@ figcaption {
 	margin-left:240px;
 	padding-left:30px;
 	padding-right:30px;
+	margin-top:120px;
 }
 .sidebar{
 	width:18%;
 	background-color:white;
-	margin-top:40px;
-	margin-right:60px;
+	margin:40px;
 	padding:20px;
+	margin-top:120px;
 
 }
 .icon	{
@@ -188,4 +191,10 @@ input[type=text] {
 }
 .plinks {
 	color:cadetblue;
+}
+.header-cont {
+	width:100%;
+	position: fixed;
+	top:0px;
+	z-index:100000;
 }
