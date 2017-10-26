@@ -1,5 +1,5 @@
 body {
-	width:auto;
+	width:100%;
 	height:100%;
 	background-image: url("../images/concrete_texture.png");
 	margin:0;
@@ -9,8 +9,9 @@ body {
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 p 	{
-	width:420px;
+	width:650px;
 	margin-top:1px;
+	text-align: justify;
 }
 header {
 	background-color:#ffffff;
@@ -97,12 +98,20 @@ figcaption {
 		margin-right:20px;
 		margin-top:10px;
 }
+.couple_pic {
+		image-orientation:270deg;
+		width:200px;
+		height:266.67px;
+		margin:0px;
+		margin-left:20px;
+		margin-top:0px;
+}
 .container {
 	overflow:auto;
 
 }
 .main_content {
-	width:650px;
+	width:44%;
 	background-color:white;
 	margin:40px;
 	margin-left:240px;
@@ -110,11 +119,12 @@ figcaption {
 	padding-right:30px;
 }
 .sidebar{
-	width:270px;
+	width:18%;
 	background-color:white;
 	margin-top:40px;
 	margin-right:60px;
 	padding:20px;
+
 }
 .icon	{
 	height:75px;
@@ -122,6 +132,9 @@ figcaption {
 }
 .left 	{
 	float:left;
+}
+.right {
+	float:right;
 }
 /*Sticky Footer*/
 .wrapper {
@@ -145,6 +158,7 @@ input[type=text] {
 }
 .box-set {
 	background-color:white;
+	height:800px;
 }
 .box {
 	height:225px;
@@ -171,4 +185,7 @@ input[type=text] {
 .box-6 {
 	left:300px;
 	bottom:723px;
+}
+.plinks {
+	color:cadetblue;
 }
